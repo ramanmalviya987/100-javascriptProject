@@ -33,3 +33,6 @@ window.addEventListener('offline',()=>{
 //     wrapper.classList.add('-translate-x-full')
 // }, 3000);
 })
+
+// ye true or false batata he 
+//   console.log(navigator.onLine)
