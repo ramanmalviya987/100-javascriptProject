@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- tailwind css cdn link  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- google icon link  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>  
+
+<!-- change boby background color -->
+<body class="bg-[#f2f2f2]">
+    <!-- wrapper -->
+    <div id="wrapper" class="absolute top-10 left-10 -translate-x-[120%] transition duration-500">
+    <!-- toaster     -->
+<div id="toaster" class="bg-white p-[20px] pt-[15px] rounded-[10px] w-[430px] flex items-center justify-between shadow-xl border-l-4 border-[#2ecc71]">
+    <!-- content -->
+    <div id="content" class="flex items-center">
+<!-- icon  -->
+<div class="text-2xl bg-[#2ecc71] h-[50px] w-[50px] text-center rounded-full text-white flex justify-center items-center">
+    <!-- google icon wifi on -->
+    <i id="wifiIcon" class="material-icons">network_wifi</i>
+</div>
+<!-- details -->
+<div class="ml-4">
+    <span id="title" class="text-xl font-medium">you'r online</span>
+    <p id="subtitle" class="text-gray-500">Hurry! Internet is connected.</p>
+</div>
+    </div>
+<!-- close google icon  -->
+<div id="closeIcon" class="bg-[#f2f2f2] h-10 w-10  leading-10 text-2xl cursor-pointer text-gray-400 rounded-full flex justify-center items-center">
+    <i class="material-icons">close</i>
+</div>
+</div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
