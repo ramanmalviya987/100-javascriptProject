@@ -1,5 +1,4 @@
 const wrapper = document.getElementById('wrapper')
-const toaster = document.getElementById('toaster')
 const wifiIcon = document.getElementById('wifiIcon')
 const title = document.getElementById('title')
 const subtitle = document.getElementById('subtitle')
